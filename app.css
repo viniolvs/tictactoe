@@ -1,0 +1,50 @@
+html, body {
+    text-align: center;
+    height: 100%;
+    margin: 0;
+}
+h1 {
+    color: black;
+}
+td {
+    font-size: 3em;
+    padding: 100px;
+    min-width: 210px;
+    min-height: 210px;
+}
+body {
+    background-color: aliceblue !important;
+}
+
+.win {
+    background-color: lightgreen !important;
+}
+.draw {
+    background-color: lightcoral !important;
+}
+.filled {
+    padding: 60px;
+    min-width: 210px;
+    min-height: 210px;
+}
+#board {
+    margin-inline: auto;
+    margin-bottom: 30px;
+
+}
+#board #midRow {
+    border-top: solid 5px blueviolet;
+    border-bottom: solid 5px blueviolet;
+}
+#board #topRow td:nth-of-type(2){
+    border-right: solid 5px blueviolet;
+    border-left: solid 5px blueviolet;
+}
+#board #midRow td:nth-of-type(2){
+    border-right: solid 5px blueviolet;
+    border-left: solid 5px blueviolet;
+}
+#board #bottomRow td:nth-of-type(2){
+    border-right: solid 5px blueviolet;
+    border-left: solid 5px blueviolet;
+}
